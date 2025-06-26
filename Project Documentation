@@ -1,0 +1,100 @@
+A ServiceNow application that helps users track, manage, and analyze their family expenses efficiently through categorized spending, budgeting, and reporting.
+
+ 📝 Table of Contents
+       1. Introduction 
+       2. Ideation Phase
+       3. Requirement Analysis 
+       4. Project Design
+       5. Project Planning & Scheduling  
+       6. Functional and Performance Testing
+       7. Results  
+       8. Advantages & Disadvantages  
+       9. Conclusion
+      10. Future Scope  
+      11. Appendix. 
+
+1. 🔰 Introduction
+     1.1 Project Overview : 
+         This project provides a centralized ServiceNow-based system to manage and track family expenses. It includes features like budgeting, expense categorization, reporting, and family member management.
+     1.2 Purpose: 
+         To improve financial awareness and control by enabling structured tracking and visualization of family income and expenses.
+2. 💡 Ideation Phase
+     2.1 Problem Statement:  
+          Families often face challenges tracking where and how their money is spent. Manual tracking is time-consuming and error-prone.
+    2.2 Empathy Map Canvas : 
+        -Think & Feel: Confused by scattered expenses.  
+       - Hear: "Where did all our money go?".  
+       - Say & Do:Tries to budget manually, sometimes forgets.  
+       - Pain:No proper system to monitor expenses.  
+       - Gain: Wants a smart, visual solution to track spending.
+   2.3 Brainstorming  
+      - Expense categories.  
+      - Budget alerts.  
+      - Member-wise expenses.  
+      - Daily/monthly reports.  
+      - Visual dashboard.
+3. 🔍 Requirement Analysis
+  3.1 Customer Journey Map:  
+      1. User logs in  
+      2. Adds family members.  
+      3. Inputs income and expenses.  
+      4. Views categorized reports.  
+      5. Analyzes budget and overspending.
+   3.2 Solution Requirements:  
+      - Tables: Member, Expenses.  
+      - Forms for data entry.  
+      - Reports and dashboards.  
+      - Business rules for calculations.  
+      - Notifications for budget limits.
+   3.3 Technology Stack : 
+      - ServiceNow Studio.  
+      - JavaScript (GlideRecord, Client Scripts).  
+      - UI Policies, Business Rules.  
+      - Reports, Update Sets.  
+4 . 🏗 Project Design
+   4.1 Problem-Solution Fit:  
+         Manual tracking is replaced with a digital ServiceNow app that is accurate, fast, and accessible.
+    4.2 Proposed Solution : 
+        A ServiceNow app to:
+           - Categorize expenses.  
+           - Track by family member.  
+           - Display dashboards and reports. 
+           - Set monthly budgets  
+   4.3 Solution Architecture:  
+      - Frontend: Forms, Lists, UI Policies.  
+      - Backend:Tables, Business Rules.  
+      - Automation:Client scripts, workflows. 
+      - Reports: Standard and custom dashboards.
+
+5. 🗓 Project Planning & Scheduling
+
+| Task                         | Duration |
+|------------------------------|----------|
+| Requirement Gathering        | 1 day    |
+| Table and Form Setup         | 2 days   |
+| Script Development           | 2 days   |
+| Dashboard & Report Creation  | 1 day    |
+| Testing & Debugging          | 1 day    |
+
+ 6. ✅ Functional and Performance Testing
+    6.1 Performance Testing:  
+      - Form load time: < 2 seconds.  
+      - Report generation: < 5 seconds for 500+ records.
+ 7. ⚖️ Advantages & Disadvantages
+ ✅ Advantages:  
+     - Real-time tracking.  
+     - Custom reporting . 
+     - User-friendly interface.  
+     - Easy integration with other modules.
+ ❌ Disadvantages:  
+     - Requires ServiceNow platform access.  
+     - Limited to developer instance for free use.  
+ 8. 📌 Conclusion:
+       This ServiceNow-based family expense tracker ensures structured, reliable, and accessible financial data management. It empowers users to make better financial decisions and improve household budgeting.
+ 9. 🚀 Future Scope:
+       - Integration with mobile app or email alerts. 
+       - AI-based financial suggestions.  
+       - Auto-import from SMS/Bank statements.  
+       - Graph-based analysis.
+ 
+
